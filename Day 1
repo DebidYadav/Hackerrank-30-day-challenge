@@ -1,0 +1,22 @@
+#include <iostream>
+#include <iomanip>
+#include <limits>
+
+using namespace std;
+
+int main() {
+    int i = 4;
+    double d = 4.0;
+    string s = "HackerRank ";
+    int k;
+    double m;
+    string b;
+     cin>>k;
+     cin>>m;
+     cin.ignore();
+     getline(cin,b);
+    int sum=i+k;cout<<sum<<endl;
+    double l=d+m;cout<<fixed<<setprecision(1)<<l<<endl;
+    cout<<s<<b<<endl;
+    return 0;
+}
